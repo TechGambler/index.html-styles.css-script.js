@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DNA to RNA Converter</title>
+    <title>DNA to RNA to Amino Acids Converter</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>DNA to RNA Converter</h1>
-        <p>Enter a DNA sequence containing only the letters A, T, G, C. The converter will replace T with U to give the RNA sequence.</p>
+        <h1>DNA to RNA to Amino Acids Converter</h1>
+        <p>Enter a DNA sequence containing only the letters A, T, G, C. The converter will replace T with U to generate RNA and translate it into the amino acid sequence.</p>
 
         <div class="form-group">
             <label for="dna-sequence">Enter DNA Sequence:</label>
             <input type="text" id="dna-sequence" placeholder="e.g. ATGCTGCA">
-            <button onclick="convertToRNA()">Convert to RNA</button>
+            <button onclick="convertToAminoAcids()">Convert to Amino Acids</button>
         </div>
 
-        <div id="output" class="output-box"></div>
+        <div id="rna-output" class="output-box"></div>
+        <div id="acid-output" class="output-box"></div>
     </div>
 
     <script src="script.js"></script>
