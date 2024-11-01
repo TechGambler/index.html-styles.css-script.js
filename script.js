@@ -65,7 +65,6 @@ const codonTable = {
      'GGA': 'Glycine (Gly)',
      'GGG': 'Glycine (Gly)'
 };
-
 // Function to convert DNA to RNA
 function convertToRNA() {
     let dnaSequence = document.getElementById('dna-sequence').value.toUpperCase();
